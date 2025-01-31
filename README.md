@@ -31,8 +31,8 @@ pip install -r requirements.txt
 
 1. Open the code file and replace the placeholders with your Telegram API credentials:
 
-API_ID = 24323145  # Replace with your API ID
-API_HASH = "2255461d65e3ad2440a936bc078b301f"  # Replace with your API hash
+API_ID =   # Replace with your API ID
+API_HASH = ""  # Replace with your API hash
 
 You can get your API ID and API Hash from my.telegram.org.
 
