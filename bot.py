@@ -5,10 +5,10 @@ from pyrogram.errors import FloodWait, PeerIdInvalid, RPCError
 
 logging.basicConfig(level=logging.ERROR)
 
-API_ID =   # Replace with your API ID
-API_HASH = ""  # Replace with your API hash
+API_ID = "20959976"
+API_HASH = "4f648d2c4c0fd1b89a995bb85b2dba67"
 
-app = Client("user_account_session", api_id=API_ID, api_hash=API_HASH)
+app = Client("1AZWarzIAUKGaqbfsjfFYWPkC7VBzgTvSMW3QAN1SdqFURXbB5pP01nk86nSDON3v_uLsFTByt7BPRdEX9NPnbm3-LSmWZ__EsCa6yjUwN2UQMXniTX2MMawsM01HkT_syiMoTzlaGz1cMIE1niDJs62L4Vo-DFMgNK_CiJzsUkzpEQ7UCnIigANgWO9fd-eKsoangN0tNxdLR39woIIkYqaud4u_ZfgrKUboSTZwfTEuA58E9WT34BMKoh8bMK6bgj4k4cTYhaVfAWEYCrPHxlf1zFkFlMyIqzP6hWYDX3lacNygy_BPrIpLtUo5aM8ix3BpCJqVjf1hQIKDBydKoYH3fWgHV0o=", api_id=API_ID, api_hash=API_HASH)
 
 
 @app.on_message(filters.command(["run", "approve"], prefixes=[".", "/"]))
